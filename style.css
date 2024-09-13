@@ -11,6 +11,12 @@
     padding: 0 80px;
     margin: auto;
   }
+
+  body{
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 /* all similar content styling codes */
 section{
     padding: 100px 0;
@@ -28,7 +34,7 @@ section{
     margin: auto;
   }
   .about, .services, .Exemple{
-    font-family: 'Poppins', sans-serif;
+    font-family: "futura-pt", sans-serif;
   }
   .about .about-content,
   .services .serv-content{
@@ -43,7 +49,7 @@ section{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "futura-pt", sans-serif;
   }
   section .title::before{
     content: "";
@@ -76,7 +82,9 @@ section{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     transition: all 0.3s ease;
   
   }
@@ -136,7 +144,9 @@ section{
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
   
   .home .max-width{
@@ -187,18 +197,18 @@ section{
 /******************************/
 /*       About Section        */
 /******************************/
-.about .title::after{
-    content: "who i am";
-  }
-  
   .about{
-    font-family: 'Poppins',sans-serif;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   
   .about .title{
     position: relative;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
@@ -315,7 +325,7 @@ section{
 }
 .services .title::after{
   background: #111;
-  content: "ce que je fournis";
+  content: "ce que j'étudie";
 }
 .services .serv-content .box{
   background: #222;
@@ -366,7 +376,7 @@ svg{
 }
 
 .serv-content p{
-  text-align: center;
+  text-align: justify;
   margin-top: 20px;
 }
 
@@ -389,9 +399,6 @@ svg{
   max-width: 1400px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #portfolio h2::after {
@@ -527,7 +534,7 @@ svg{
   background: #fff;
 }
 .contact .title::after{
-  content: "Mes contacts";
+
   background-color: #111;;
   color:#e90f30;
 }
@@ -559,11 +566,7 @@ ul {
   font-size: 14px;
   transition: all 0.3s ease;
 }
-.example-2 .icon-content:hover .tooltip {
-  opacity: 1;
-  visibility: visible;
-  top: 5px;
-}
+
 .example-2 .icon-content a {
   position: relative;
   overflow: hidden;
