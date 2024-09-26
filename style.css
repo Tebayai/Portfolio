@@ -66,7 +66,7 @@ section{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #571c40;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -91,7 +91,7 @@ section{
   /* Transition barre menu quand il y a un scroll */
   .navmenu.sticky{
     padding: 15px 0;
-    background: rgb(33, 33, 116);
+    background: #29081c;
   }
   /* Taille max menu */
   .navmenu .max-width{
@@ -122,7 +122,7 @@ section{
   
   /* Couleur menu lors du scroll */
   .navmenu .menu li a:hover{
-    color:rgb(255, 1, 39);
+    color:#571c40;
   
   }
   
@@ -167,7 +167,7 @@ section{
   }
   
   .home .home-content .text-3 span{
-    color: rgb(233, 15, 48);
+    color: #c9007ca9;
   }
 
   /* scroll down */
@@ -231,7 +231,7 @@ section{
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color:rgb(33, 33, 116);
+    color:#571c40;
     padding: 5px;
     background: #fff;
     transform: translate(-50%);
@@ -273,7 +273,7 @@ section{
   }
   
   .about .about-content .right .text span{
-    color:rgb(33, 33, 116);
+    color:#571c40;
   }
   
   .about .about-content .right p{
@@ -281,17 +281,17 @@ section{
   }
   .about .about-content .right a{
     display: inline-block;
-    background: rgb(33, 33, 116);
+    background: #29081c;
     color: #fff;
     font-size: 20px;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid rgb(33, 33, 116);
+    border: 2px solid #29081c;
     overflow: hidden;
   }
   .about .about-content .right a:hover{
-    background: rgb(61, 106, 255);
+    background: #571c40;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -404,7 +404,7 @@ svg{
 
 #portfolio h2::after {
   content: "Mes projets";
-  color: rgb(33, 33, 116);
+  color: #571c40;
 }
 
 .buttons {
